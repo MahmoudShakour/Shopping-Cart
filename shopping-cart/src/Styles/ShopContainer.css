@@ -1,0 +1,10 @@
+.container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
+    gap: 50px;
+}
+
+.container div{
+    height: 160px;
+}

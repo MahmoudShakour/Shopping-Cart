@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Card from "./Card";
+import "../Styles/ShopContainer.css";
 
 const ShopContainer= ()=>{
 
@@ -16,7 +17,7 @@ const ShopContainer= ()=>{
     },[]);
 
     return(
-        <div>
+        <div className="container">
             {items.map((item)=><Card item={item} key={item.id}/>)}
         </div>
     );

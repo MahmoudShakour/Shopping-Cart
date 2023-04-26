@@ -4,6 +4,8 @@ import Shop from "./Shop";
 import Cart from "./Cart"; 
 import About from "./About";
 import Item from "./Item";
+import "../Styles/App.css";
+
 const App =()=>{
     const [totalPrice,setTotalPrice]=useState(0);
     const [numberOfCartItems,setNumberOfCartItems]=useState(0);

@@ -1,0 +1,31 @@
+.link{
+    text-decoration: none;
+}
+
+.card{
+    display: flex;
+    gap: 20px;
+    background-color: #3f3c3c;
+    padding: 30px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.card div{
+    font-size: 20px;
+    color: white;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    font-size: 30px;
+}
+
+img{
+    width: 120px;
+    height: 160px;
+}

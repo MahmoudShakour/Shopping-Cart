@@ -1,0 +1,61 @@
+.item-page{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.item-page-container{
+    flex: 1;
+    display: grid;
+    place-content: center;
+}
+
+.item-page-inner-container{
+    background-color: #3f3c3c;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    gap: 60px;
+    width: 850px;
+    align-items: center;
+}
+
+.item-page-image{
+    width: 330px;
+    height: 85%;
+}
+
+.item-page-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.item-page-title{
+    font-weight: bold;
+}
+
+.item-page-payment{
+    display: flex;
+    gap: 40px;
+    align-self: center; 
+    align-items: center;
+}
+
+.item-page-payment div{
+    font-size: 60px;
+}
+
+.item-page-button {
+    background-color: #3f3c3c;
+    border: none;
+}
+
+.item-page-button:hover {
+    background-color: #343232;
+    border: none;
+    border-radius: 5px;
+}
